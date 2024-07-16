@@ -1,0 +1,883 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+		<title>Emily</title>
+
+		<!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="static/logo/favicon.png"/>
+			   
+		<!--font-awesome.min.css-->
+		<link rel="stylesheet" href="static/css/font-awesome.min.css">
+		
+		<!--flat icon css-->
+		<link rel="stylesheet" href="static/css/flaticon.css">
+		
+		<!--animate.css-->
+		<link rel="stylesheet" href="static/css/animate.css">
+		
+		<!--owl.carousel.css-->
+		<link rel="stylesheet" href="static/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+				
+		<!--bootstrap.min.css-->
+		<link rel="stylesheet" href="static/css/bootstrap.min.css">
+				
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="static/css/bootsnav.css">
+				
+		<!--style.css-->
+		<link rel="stylesheet" href="static/css/style.css">
+				
+		<!--responsive.css-->
+		<link rel="stylesheet" href="static/css/responsive.css">
+		
+		<link rel="stylesheet" href="static/css/projects.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!-- top-area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="{% url 'index' %}">emily</a>
+			            </div>
+						<!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                <li class=" smooth-menu active"></li>
+								<li class=" smooth-menu"><a href="#about">about</a></li>
+								<li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
+								<li class="smooth-menu"><a href="#skills">skills</a></li>
+								<li class="smooth-menu"><a href="#experience">experience</a></li>
+								<li class=" smooth-menu"><a href="#languages">languages</a></li>
+			                    <li class=" smooth-menu"><a href="#education">education</a></li>
+			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+
+		    <div class="clearfix"></div>
+
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
+	
+		<!--welcome-hero start -->
+		<section id="welcome-hero" class="welcome-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2>hi <span>,</span> i am <br> emilija žebrauskaitė <span>.</span></h2>
+							<p>lifelong learner<br>curious & analytical mind<br>&lt;coder/&gt;</p>
+							<div style="display: flex; flex-direction: column; align-items: center;"> 
+								<a href="static/download/ZEBRAUSKAITE - CV.pdf" style="text-decoration: none; color: white; display: flex; align-items: center; margin-bottom: 10px;" download>
+									<button style="padding-top: 10px; padding-bottom: 10px; padding-left: 25px; padding-right: 20px; border: none; border-radius: 5px;">Download Resume</button>
+								</a>
+							</div>
+						</div>					
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!--about start -->
+		<section id="about" class="about">
+			<div class="section-heading text-center">
+				<h2>about me</h2>
+			</div>
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3>
+									I am deeply driven by a  passion for continuous improvement and learning,  thriving in the realm of computer science, which provides me with an endless avenue for creativity. I am constantly improving my skills in Python, Django, data analysis and machine learning. 
+								</h3>
+								<p>
+									I draw upon my diverse experiences in International Relations to offer a unique perspective. This background enhances my problem-solving abilities and cultural sensitivity, enabling me to innovate and contribute meaningfully to projects on a global scale and work within international teams. By combining my analytical thinking from International Relations with my fervent passion for computer science, I am well-equipped to tackle challenges and drive innovation in the ever-evolving landscape of coding. 
+								</p>
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>phone</h3>
+											<p>+370 680 54071</p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>email</h3>
+											<p>emazebras@gmail.com</p>
+										</div>
+									</div>
+									<!-- <div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>website</h3>
+											<p>www.brownsine.com</p>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<img src="static/images/about/profile_image.jpg" alt="profile_image">
+								<div class="about-list-icon">
+									<ul>
+										<li>
+											<a href="https://www.facebook.com/emilija.zebrauskaite">
+												<i  class="fa fa-facebook" aria-hidden="true"></i>
+											</a>
+										</li><!-- / li -->
+							
+										<li>
+											<a href="https://github.com/Emilija453?tab=repositories">
+												<i  class="fa fa-github" aria-hidden="true"></i>
+											</a>
+											
+										</li><!-- / li -->
+										<li>
+											<a href="https://www.linkedin.com/in/zebrauskaite-emilija">
+												<i  class="fa fa-linkedin" aria-hidden="true"></i>
+											</a>
+										</li><!-- / li -->
+										<li>
+											<a href="https://www.instagram.com/emmuu/">
+												<i  class="fa fa-instagram" aria-hidden="true"></i>
+											</a>
+										</li>
+										<!-- <li>
+											<a href="#">
+												<i  class="fa fa-twitter" aria-hidden="true"></i>
+											</a>
+										</li>/ li -->
+										
+										
+										
+									</ul><!-- / ul -->
+								</div><!-- /.about-list-icon -->
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/.about-->
+		<!--about end -->
+
+
+		<!--portfolio start -->
+<section id="portfolio" class="portfolio" style="background-color: #e2eff0;">
+
+	<div class="portfolio-details">
+		<div class="section-heading text-center">
+			<h2>portfolio</h2>
+		</div>
+		<div class="container">
+			<div class="portfolio-content">
+				<div class="isotope">
+					<div class="row">
+
+						<div class="col-sm-4">
+							<div class="item">
+								
+								<img src="static/images/portfolio/p1.jpg">
+								
+								<div class="isotope-overlay">
+									<a href="https://seoul-bikes-cdd077ffc0b8.herokuapp.com/" style="margin: 15px; text-transform: none;">
+										Dash-based web application that analyzes Seoul bike rental data through Plotly graphs.
+									</a>
+								</div><!-- /.isotope-overlay -->
+							</div><!-- /.item -->
+							
+							<div class="item">
+								<img src="static/images/portfolio/p2.jpg" alt="portfolio image"/>
+								<div class="isotope-overlay">
+									<a href="https://github.com/Emilija453/geospatial_data_visualisation" style="margin: 15px; text-transform: none;">
+										Iinteractive map visualizing copper deposits across Africa, China, Indopacific, and South West Asia.
+									</a>
+								</div><!-- /.isotope-overlay -->
+							</div><!-- /.item -->
+						</div><!-- /.col -->
+
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="static/images/portfolio/p3.jpg" alt="portfolio image"/>
+								<div class="isotope-overlay">
+									<a href="#" style="margin: 15px; text-transform: none;">
+										web design
+									</a>
+								</div><!-- /.isotope-overlay -->
+							</div><!-- /.item -->
+						</div><!-- /.col -->
+
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="static/images/portfolio/p4.jpg" alt="portfolio image"/>
+								<div class="isotope-overlay">
+									<a href="https://emilija453.github.io/energy-transitions/" style="margin: 15px; text-transform: none;">
+										Data visualisation of energy transitions, particularly in Lithuania and the Baltic region, along with a global perspective.  
+									</a>
+								</div><!-- /.isotope-overlay -->
+							</div><!-- /.item -->
+							<div class="item">
+								<img src="static/images/portfolio/p5.jpg" alt="portfolio image"/>
+								<div class="isotope-overlay">
+									<a href="https://github.com/Emilija453/cat_dog_cnn" style="margin: 15px; text-transform: none;">
+										Cats and Dogs Classification using Convolutional Neural Networks.
+									</a>
+								</div><!-- /.isotope-overlay -->
+							</div><!-- /.item -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!--/.isotope-->
+			</div><!--/.gallery-content-->
+		
+			
+			
+		</div><!--/.container-->
+	</div><!--/.portfolio-details-->
+
+</section><!--/.portfolio-->
+<!--portfolio end -->
+		
+
+		<!--profiles start -->
+		<section id="skills" class="profiles" style="background-color: #F9FAF7;">
+			<div class="profiles-details">
+				<div class="section-heading text-center">
+					<h2>Skills</h2>
+				</div>
+				<div class="container">
+					<div class="profiles-content">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="emily-profile">
+									<div class="profile-txt">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true" role="img" viewBox="0 0 16 16" width="30" height="30" fill="#251E1C" style="user-select: none;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4 .1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3 .1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/></svg>
+										<div class="profile-icon-name">Python</div>
+									</div>
+									<div class="emily-profile-overlay">
+										<div class="profile-txt">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true" role="img" viewBox="0 0 16 16" width="30" height="30" fill="white" style="user-select: none;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4 .1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3 .1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/></svg>
+											<div class="profile-icon-name">Python</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="emily-profile">
+									<div class="profile-txt">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true" role="img" viewBox="0 0 16 16" width="25" height="25" fill="#251E1C" style="user-select: none;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/></svg>
+										<div class="profile-icon-name">SQL & SQLite</div>
+									</div>
+									<div class="emily-profile-overlay">
+										<div class="profile-txt">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-hidden="true" role="img" viewBox="0 0 16 16" width="25" height="25" fill="white" style="user-select: none;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/></svg>
+											<div class="profile-icon-name">SQL & SQLite</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="emily-profile">
+									<div class="profile-txt">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" width="70" height="50" viewBox="0 0 436.505 152.503" overflow="visible" enable-background="new 0 0 436.505 152.503" xml:space="preserve">
+											<g>
+												<g>
+													<path fill="#251E1C" d="M51.464,0h23.872v110.496c-12.246,2.325-21.237,3.255-31.002,3.255C15.191,113.75,0,100.576,0,75.308    c0-24.337,16.122-40.147,41.078-40.147c3.875,0,6.82,0.309,10.386,1.239V0z M51.464,55.62c-2.79-0.929-5.115-1.239-8.06-1.239    c-12.091,0-19.067,7.441-19.067,20.461c0,12.712,6.666,19.687,18.912,19.687c2.634,0,4.805-0.155,8.215-0.619V55.62z"/>
+													<path fill="#251E1C" d="M113.312,36.865v55.338c0,19.067-1.395,28.212-5.58,36.118c-3.876,7.597-8.992,12.401-19.532,17.672    l-22.167-10.541c10.541-4.96,15.656-9.299,18.911-15.967c3.411-6.82,4.497-14.726,4.497-35.497V36.865H113.312z M89.441,0.127    h23.871v24.492H89.441V0.127z"/>
+													<path fill="#251E1C" d="M127.731,42.29c10.542-4.959,20.617-7.129,31.623-7.129c12.246,0,20.306,3.254,23.872,9.61    c2.014,3.565,2.634,8.215,2.634,18.137v48.517c-10.697,1.55-24.182,2.636-34.102,2.636c-19.996,0-28.988-6.978-28.988-22.478    c0-16.742,11.936-24.492,41.234-26.973v-5.27c0-4.34-2.17-5.889-8.216-5.889c-8.835,0-18.756,2.48-28.058,7.286V42.29z     M165.089,80.268c-15.812,1.55-20.927,4.031-20.927,10.231c0,4.65,2.946,6.82,9.456,6.82c3.566,0,6.82-0.309,11.471-1.084V80.268z    "/>
+													<path fill="#251E1C" d="M197.487,40.585c14.105-3.72,25.731-5.424,37.512-5.424c12.246,0,21.082,2.789,26.354,8.215    c4.96,5.114,6.509,10.694,6.509,22.632v46.812H243.99V66.938c0-9.145-3.1-12.557-11.625-12.557c-3.255,0-6.2,0.31-11.007,1.705    v56.734h-23.871V40.585z"/>
+													<path fill="#251E1C" d="M277.142,125.842c8.372,4.34,16.742,6.354,25.577,6.354c15.655,0,22.321-6.354,22.321-21.546    c0-0.155,0-0.31,0-0.465c-4.65,2.324-9.301,3.255-15.5,3.255c-20.927,0-34.26-13.796-34.26-35.652    c0-27.129,19.688-42.473,54.564-42.473c10.232,0,19.688,1.084,31.159,3.409l-8.174,17.219c-6.356-1.24-0.509-0.166-5.312-0.631    v2.481l0.309,10.074l0.154,13.022c0.155,3.254,0.155,6.51,0.311,9.765c0,2.945,0,4.341,0,6.511c0,20.462-1.705,30.072-6.82,37.977    c-7.441,11.627-20.307,17.362-38.598,17.362c-9.301,0-17.36-1.395-25.732-4.651V125.842z M324.576,54.536c-0.31,0-0.619,0-0.774,0    h-1.706c-4.649-0.155-10.074,1.084-13.796,3.409c-5.734,3.256-8.681,9.147-8.681,17.517c0,11.937,5.892,18.757,16.432,18.757    c3.255,0,5.891-0.621,8.99-1.55v-1.706v-6.509c0-2.79-0.154-5.892-0.154-9.146l-0.154-11.005l-0.156-7.906V54.536z"/>
+													<path fill="#251E1C" d="M398.062,34.85c23.871,0,38.443,15.037,38.443,39.373c0,24.958-15.19,40.614-39.373,40.614    c-23.873,0-38.599-15.037-38.599-39.218C358.534,50.505,373.726,34.85,398.062,34.85z M397.595,95.614    c9.147,0,14.573-7.596,14.573-20.772c0-13.02-5.271-20.771-14.415-20.771c-9.457,0-14.884,7.597-14.884,20.771    C382.87,88.019,388.296,95.614,397.595,95.614z"/>
+												</g>
+											</g>
+											</svg>
+										
+									</div>
+									<div class="emily-profile-overlay">
+										<div class="profile-txt">
+											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" width="70" height="50" viewBox="0 0 436.505 152.503" overflow="visible" enable-background="new 0 0 436.505 152.503" xml:space="preserve">
+												<g>
+													<g>
+														<path fill="white" d="M51.464,0h23.872v110.496c-12.246,2.325-21.237,3.255-31.002,3.255C15.191,113.75,0,100.576,0,75.308    c0-24.337,16.122-40.147,41.078-40.147c3.875,0,6.82,0.309,10.386,1.239V0z M51.464,55.62c-2.79-0.929-5.115-1.239-8.06-1.239    c-12.091,0-19.067,7.441-19.067,20.461c0,12.712,6.666,19.687,18.912,19.687c2.634,0,4.805-0.155,8.215-0.619V55.62z"/>
+														<path fill="white" d="M113.312,36.865v55.338c0,19.067-1.395,28.212-5.58,36.118c-3.876,7.597-8.992,12.401-19.532,17.672    l-22.167-10.541c10.541-4.96,15.656-9.299,18.911-15.967c3.411-6.82,4.497-14.726,4.497-35.497V36.865H113.312z M89.441,0.127    h23.871v24.492H89.441V0.127z"/>
+														<path fill="white" d="M127.731,42.29c10.542-4.959,20.617-7.129,31.623-7.129c12.246,0,20.306,3.254,23.872,9.61    c2.014,3.565,2.634,8.215,2.634,18.137v48.517c-10.697,1.55-24.182,2.636-34.102,2.636c-19.996,0-28.988-6.978-28.988-22.478    c0-16.742,11.936-24.492,41.234-26.973v-5.27c0-4.34-2.17-5.889-8.216-5.889c-8.835,0-18.756,2.48-28.058,7.286V42.29z     M165.089,80.268c-15.812,1.55-20.927,4.031-20.927,10.231c0,4.65,2.946,6.82,9.456,6.82c3.566,0,6.82-0.309,11.471-1.084V80.268z    "/>
+														<path fill="white" d="M197.487,40.585c14.105-3.72,25.731-5.424,37.512-5.424c12.246,0,21.082,2.789,26.354,8.215    c4.96,5.114,6.509,10.694,6.509,22.632v46.812H243.99V66.938c0-9.145-3.1-12.557-11.625-12.557c-3.255,0-6.2,0.31-11.007,1.705    v56.734h-23.871V40.585z"/>
+														<path fill="white" d="M277.142,125.842c8.372,4.34,16.742,6.354,25.577,6.354c15.655,0,22.321-6.354,22.321-21.546    c0-0.155,0-0.31,0-0.465c-4.65,2.324-9.301,3.255-15.5,3.255c-20.927,0-34.26-13.796-34.26-35.652    c0-27.129,19.688-42.473,54.564-42.473c10.232,0,19.688,1.084,31.159,3.409l-8.174,17.219c-6.356-1.24-0.509-0.166-5.312-0.631    v2.481l0.309,10.074l0.154,13.022c0.155,3.254,0.155,6.51,0.311,9.765c0,2.945,0,4.341,0,6.511c0,20.462-1.705,30.072-6.82,37.977    c-7.441,11.627-20.307,17.362-38.598,17.362c-9.301,0-17.36-1.395-25.732-4.651V125.842z M324.576,54.536c-0.31,0-0.619,0-0.774,0    h-1.706c-4.649-0.155-10.074,1.084-13.796,3.409c-5.734,3.256-8.681,9.147-8.681,17.517c0,11.937,5.892,18.757,16.432,18.757    c3.255,0,5.891-0.621,8.99-1.55v-1.706v-6.509c0-2.79-0.154-5.892-0.154-9.146l-0.154-11.005l-0.156-7.906V54.536z"/>
+														<path fill="white" d="M398.062,34.85c23.871,0,38.443,15.037,38.443,39.373c0,24.958-15.19,40.614-39.373,40.614    c-23.873,0-38.599-15.037-38.599-39.218C358.534,50.505,373.726,34.85,398.062,34.85z M397.595,95.614    c9.147,0,14.573-7.596,14.573-20.772c0-13.02-5.271-20.771-14.415-20.771c-9.457,0-14.884,7.597-14.884,20.771    C382.87,88.019,388.296,95.614,397.595,95.614z"/>
+													</g>
+												</g>
+												</svg>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="emily-profile profile-no-border">
+									<div class="profile-txt">
+										<a href=""><i class="flaticon-github-logo"></i></a>
+										<div class="profile-icon-name">github</div>
+									</div>
+									<div class="emily-profile-overlay">
+										<div class="profile-txt">
+											<a href=""><i class="flaticon-github-logo"></i></a>
+											<div class="profile-icon-name">github</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="profile-border"></div>
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="emily-profile">
+									<div class="profile-txt">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="#251E1C" width="30" height="30"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
+										<div class="profile-icon-name">HTML</div>
+									</div>
+									<div class="emily-profile-overlay">
+										<div class="profile-txt">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="white" width="30" height="30" ><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
+											<div class="profile-icon-name">HTML</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="emily-profile">
+									<div class="profile-txt">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="#251E1C" width="30" height="30"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
+										<div class="profile-icon-name">CSS</div>
+									</div>
+									<div class="emily-profile-overlay">
+										<div class="profile-txt">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="white" width="30" height="30"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
+											<div class="profile-icon-name">CSS</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="emily-profile">
+									<div class="profile-txt">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#251E1C" width="30" height="30"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg>
+										<div class="profile-icon-name">JS</div>
+									</div>
+									<div class="emily-profile-overlay">
+										<div class="profile-txt">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white" width="30" height="30" style="margin-top: 20px;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg>
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="white" width="15" height="15" style="margin-top: 15px;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z"/></svg>
+											<div class="profile-icon-name" style="font-size: 12px; margin-top: 5px;">still learning</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="emily-profile profile-no-border">
+									<div class="profile-txt">
+										<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32" viewBox="0 0 32 32" fill="#251E1C" width="30" height="30"><path d="m12 1.64c-.002 0-.004 0-.006 0-1.473 0-2.691.759-3.239 2h-.48c-.003 0-.006 0-.009 0-1.271 0-2.478.425-3.398 1.199-.976.82-1.514 1.951-1.516 3.182-.001.995.526 2.097 1.025 2.791-2.223.77-3.734 2.633-3.737 4.688-.003 2.046 1.507 3.91 3.734 4.687-.506.692-1.044 1.788-1.045 2.766-.003 2.426 2.215 4.403 4.947 4.408h.48c.543 1.238 1.764 1.998 3.244 2h.007c1.972 0 3.351-1.381 3.354-3.36v-21.001c.002-1.975-1.379-3.357-3.361-3.36zm0 17c-.353 0-.64-.287-.64-.64s.287-.64.64-.64.64.287.64.64-.287.64-.64.64zm2.64-5h-2.28v-6.335c.575-.159 1-.681 1-1.305 0-.75-.61-1.36-1.36-1.36s-1.36.61-1.36 1.36c0 .625.425 1.146 1 1.305v6.335h-1.64c-.001 0-.001 0-.002 0-.798 0-1.357.559-1.358 1.36v.64h-2.335c-.159-.575-.681-1-1.305-1-.75 0-1.36.61-1.36 1.36s.61 1.36 1.36 1.36c.625 0 1.147-.426 1.305-1h2.335v5.834c-.575.159-1 .681-1 1.306 0 .75.61 1.36 1.36 1.36s1.36-.61 1.36-1.36c0-.625-.425-1.147-1-1.306v-7.194c.001-.401.239-.641.639-.641h.001 4.64v11.639c-.003 1.456-.908 2.46-2.28 2.61v-9.303c.575-.159 1-.681 1-1.306 0-.75-.61-1.36-1.36-1.36s-1.36.61-1.36 1.36c0 .625.425 1.147 1 1.306v9.31c-1.103-.114-1.951-.742-2.3-1.735-.051-.144-.187-.24-.34-.24h-.724c-2.036-.003-4.23-1.413-4.228-3.686.002-.966.714-2.209 1.206-2.699.092-.091.127-.225.093-.35s-.132-.222-.257-.254c-2.199-.566-3.733-2.273-3.73-4.151.003-1.876 1.522-3.573 3.695-4.141h2.64c.159.575.681 1 1.305 1 .75 0 1.36-.61 1.36-1.36s-.61-1.359-1.36-1.359c-.625 0-1.146.425-1.305 1h-2.533c-.477-.541-1.092-1.691-1.091-2.618.002-1.016.449-1.95 1.261-2.632.779-.655 1.849-1.03 2.936-1.03h.008.724c.152 0 .288-.096.339-.239.392-1.103 1.384-1.761 2.655-1.761h.005c1.583.003 2.644 1.063 2.641 2.64zm-2.64-7c-.353 0-.64-.287-.64-.64s.287-.64.64-.64.64.287.64.64-.287.64-.64.64zm-3 16.22c.353 0 .64.287.64.64s-.287.64-.64.64-.64-.287-.64-.64.287-.64.64-.64zm-3.36-6.86c0 .353-.287.64-.64.64s-.64-.287-.64-.64.287-.64.64-.64.64.287.64.64zm2.72-5c0-.353.287-.64.64-.64s.64.287.64.64-.287.64-.64.64-.64-.287-.64-.64zm23 4.5c.002-2.046-1.508-3.909-3.734-4.687.507-.692 1.044-1.788 1.046-2.767.002-1.231-.54-2.365-1.526-3.193-.917-.77-2.163-1.212-3.421-1.214h-.48c-.544-1.238-1.764-1.998-3.243-2-.003 0-.005 0-.008 0-.972 0-1.808.323-2.418.933-.611.613-.934 1.451-.936 2.428v20.999c-.003 1.976 1.378 3.357 3.359 3.361h.007c1.473 0 2.69-.76 3.238-2h.479.01c1.271 0 2.478-.426 3.398-1.199.977-.82 1.515-1.95 1.517-3.182.001-.995-.526-2.098-1.025-2.791 2.224-.77 3.734-2.633 3.737-4.688zm-11.36-3.14c.353 0 .64.287.64.64s-.287.64-.64.64-.64-.287-.64-.64.287-.64.64-.64zm6.946 7.28h-2.641c-.159-.575-.681-1-1.306-1-.75 0-1.36.61-1.36 1.36s.61 1.36 1.36 1.36c.624 0 1.147-.425 1.306-1h2.533c.476.541 1.091 1.691 1.089 2.618-.001 1.016-.448 1.95-1.26 2.631-.781.657-1.865 1.01-2.943 1.03h-.724c-.152 0-.288.097-.339.239-.393 1.104-1.385 1.761-2.655 1.761-.002 0-.004 0-.005 0-.781-.001-1.445-.252-1.919-.725s-.724-1.134-.722-1.914v-8.64h2.279v6.334c-.575.159-1 .681-1 1.306 0 .75.61 1.36 1.36 1.36s1.36-.61 1.36-1.36c0-.624-.425-1.147-1-1.306v-6.334h1.639.003c.799 0 1.356-.559 1.358-1.36v-.64h2.334c.159.575.681 1 1.306 1 .75 0 1.36-.61 1.36-1.36s-.61-1.36-1.36-1.36c-.625 0-1.147.425-1.306 1h-2.333v-5.835c.575-.159 1-.681 1-1.305 0-.75-.61-1.36-1.36-1.36s-1.36.61-1.36 1.36c0 .624.425 1.146 1 1.305v7.195c0 .401-.238.641-.638.641-.001 0-.001 0-.002 0h-4.64v-11.641c.001-.781.252-1.445.725-1.918.397-.398.933-.627 1.555-.693v9.305c-.575.159-1 .681-1 1.305 0 .75.61 1.36 1.36 1.36s1.36-.61 1.36-1.36c0-.624-.425-1.146-1-1.305v-9.31c1.103.115 1.951.742 2.3 1.736.051.144.188.24.34.24h.724c1.092.001 2.17.383 2.959 1.045.82.689 1.271 1.626 1.269 2.641-.001.966-.714 2.209-1.205 2.699-.092.091-.127.225-.094.35.034.125.133.222.258.254 2.198.567 3.732 2.274 3.729 4.151-.002 1.874-1.52 3.57-3.694 4.14zm-3.306.36c0 .353-.287.64-.64.64s-.64-.287-.64-.64.287-.64.64-.64.64.287.64.64zm-3.64 4.36c.353 0 .64.287.64.64s-.287.64-.64.64-.64-.287-.64-.64.287-.64.64-.64zm3-16.22c-.353 0-.64-.287-.64-.64s.287-.64.64-.64.64.287.64.64-.287.64-.64.64zm3.36 6.86c0-.353.287-.64.64-.64s.64.287.64.64-.287.64-.64.64-.64-.287-.64-.64z"/><path d="m0 0h32v32h-32z" fill="none"/></svg>
+										<div class="profile-icon-name">ML</div>
+									</div>
+									<div class="emily-profile-overlay">
+										<div class="profile-txt">
+											<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32" viewBox="0 0 32 32" fill="white" width="30" height="30"><path d="m12 1.64c-.002 0-.004 0-.006 0-1.473 0-2.691.759-3.239 2h-.48c-.003 0-.006 0-.009 0-1.271 0-2.478.425-3.398 1.199-.976.82-1.514 1.951-1.516 3.182-.001.995.526 2.097 1.025 2.791-2.223.77-3.734 2.633-3.737 4.688-.003 2.046 1.507 3.91 3.734 4.687-.506.692-1.044 1.788-1.045 2.766-.003 2.426 2.215 4.403 4.947 4.408h.48c.543 1.238 1.764 1.998 3.244 2h.007c1.972 0 3.351-1.381 3.354-3.36v-21.001c.002-1.975-1.379-3.357-3.361-3.36zm0 17c-.353 0-.64-.287-.64-.64s.287-.64.64-.64.64.287.64.64-.287.64-.64.64zm2.64-5h-2.28v-6.335c.575-.159 1-.681 1-1.305 0-.75-.61-1.36-1.36-1.36s-1.36.61-1.36 1.36c0 .625.425 1.146 1 1.305v6.335h-1.64c-.001 0-.001 0-.002 0-.798 0-1.357.559-1.358 1.36v.64h-2.335c-.159-.575-.681-1-1.305-1-.75 0-1.36.61-1.36 1.36s.61 1.36 1.36 1.36c.625 0 1.147-.426 1.305-1h2.335v5.834c-.575.159-1 .681-1 1.306 0 .75.61 1.36 1.36 1.36s1.36-.61 1.36-1.36c0-.625-.425-1.147-1-1.306v-7.194c.001-.401.239-.641.639-.641h.001 4.64v11.639c-.003 1.456-.908 2.46-2.28 2.61v-9.303c.575-.159 1-.681 1-1.306 0-.75-.61-1.36-1.36-1.36s-1.36.61-1.36 1.36c0 .625.425 1.147 1 1.306v9.31c-1.103-.114-1.951-.742-2.3-1.735-.051-.144-.187-.24-.34-.24h-.724c-2.036-.003-4.23-1.413-4.228-3.686.002-.966.714-2.209 1.206-2.699.092-.091.127-.225.093-.35s-.132-.222-.257-.254c-2.199-.566-3.733-2.273-3.73-4.151.003-1.876 1.522-3.573 3.695-4.141h2.64c.159.575.681 1 1.305 1 .75 0 1.36-.61 1.36-1.36s-.61-1.359-1.36-1.359c-.625 0-1.146.425-1.305 1h-2.533c-.477-.541-1.092-1.691-1.091-2.618.002-1.016.449-1.95 1.261-2.632.779-.655 1.849-1.03 2.936-1.03h.008.724c.152 0 .288-.096.339-.239.392-1.103 1.384-1.761 2.655-1.761h.005c1.583.003 2.644 1.063 2.641 2.64zm-2.64-7c-.353 0-.64-.287-.64-.64s.287-.64.64-.64.64.287.64.64-.287.64-.64.64zm-3 16.22c.353 0 .64.287.64.64s-.287.64-.64.64-.64-.287-.64-.64.287-.64.64-.64zm-3.36-6.86c0 .353-.287.64-.64.64s-.64-.287-.64-.64.287-.64.64-.64.64.287.64.64zm2.72-5c0-.353.287-.64.64-.64s.64.287.64.64-.287.64-.64.64-.64-.287-.64-.64zm23 4.5c.002-2.046-1.508-3.909-3.734-4.687.507-.692 1.044-1.788 1.046-2.767.002-1.231-.54-2.365-1.526-3.193-.917-.77-2.163-1.212-3.421-1.214h-.48c-.544-1.238-1.764-1.998-3.243-2-.003 0-.005 0-.008 0-.972 0-1.808.323-2.418.933-.611.613-.934 1.451-.936 2.428v20.999c-.003 1.976 1.378 3.357 3.359 3.361h.007c1.473 0 2.69-.76 3.238-2h.479.01c1.271 0 2.478-.426 3.398-1.199.977-.82 1.515-1.95 1.517-3.182.001-.995-.526-2.098-1.025-2.791 2.224-.77 3.734-2.633 3.737-4.688zm-11.36-3.14c.353 0 .64.287.64.64s-.287.64-.64.64-.64-.287-.64-.64.287-.64.64-.64zm6.946 7.28h-2.641c-.159-.575-.681-1-1.306-1-.75 0-1.36.61-1.36 1.36s.61 1.36 1.36 1.36c.624 0 1.147-.425 1.306-1h2.533c.476.541 1.091 1.691 1.089 2.618-.001 1.016-.448 1.95-1.26 2.631-.781.657-1.865 1.01-2.943 1.03h-.724c-.152 0-.288.097-.339.239-.393 1.104-1.385 1.761-2.655 1.761-.002 0-.004 0-.005 0-.781-.001-1.445-.252-1.919-.725s-.724-1.134-.722-1.914v-8.64h2.279v6.334c-.575.159-1 .681-1 1.306 0 .75.61 1.36 1.36 1.36s1.36-.61 1.36-1.36c0-.624-.425-1.147-1-1.306v-6.334h1.639.003c.799 0 1.356-.559 1.358-1.36v-.64h2.334c.159.575.681 1 1.306 1 .75 0 1.36-.61 1.36-1.36s-.61-1.36-1.36-1.36c-.625 0-1.147.425-1.306 1h-2.333v-5.835c.575-.159 1-.681 1-1.305 0-.75-.61-1.36-1.36-1.36s-1.36.61-1.36 1.36c0 .624.425 1.146 1 1.305v7.195c0 .401-.238.641-.638.641-.001 0-.001 0-.002 0h-4.64v-11.641c.001-.781.252-1.445.725-1.918.397-.398.933-.627 1.555-.693v9.305c-.575.159-1 .681-1 1.305 0 .75.61 1.36 1.36 1.36s1.36-.61 1.36-1.36c0-.624-.425-1.146-1-1.305v-9.31c1.103.115 1.951.742 2.3 1.736.051.144.188.24.34.24h.724c1.092.001 2.17.383 2.959 1.045.82.689 1.271 1.626 1.269 2.641-.001.966-.714 2.209-1.205 2.699-.092.091-.127.225-.094.35.034.125.133.222.258.254 2.198.567 3.732 2.274 3.729 4.151-.002 1.874-1.52 3.57-3.694 4.14zm-3.306.36c0 .353-.287.64-.64.64s-.64-.287-.64-.64.287-.64.64-.64.64.287.64.64zm-3.64 4.36c.353 0 .64.287.64.64s-.287.64-.64.64-.64-.287-.64-.64.287-.64.64-.64zm3-16.22c-.353 0-.64-.287-.64-.64s.287-.64.64-.64.64.287.64.64-.287.64-.64.64zm3.36 6.86c0-.353.287-.64.64-.64s.64.287.64.64-.287.64-.64.64-.64-.287-.64-.64z"/><path d="m0 0h32v32h-32z" fill="none"/></svg>
+											<div class="profile-icon-name">ML</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section><!--/.profiles-->
+		<!--profiles end -->
+		
+<!--clients start -->
+		<section id="certificates" class="certificates">
+			<div class="section-heading text-center">
+				<h2 style="padding-top: 50px;">certificates</h2>
+			<div class="section-heading text-center">
+				<h3 style="margin-top: 20px; margin-bottom: 20px; font-size: 16px; font-weight: 300; color: #3b3533; text-transform: none;">Driven by curiosity, I am constantly driven to learn new things and improve.</h3>
+			</div>
+			</div>
+			<div class="clients-area">
+				
+				<div class="container" style="margin-top: -20px;">
+					<div class="owl-carousel owl-theme" id="client">
+						<!-- <div class="item">
+							<a href="{% static 'images/clients/c1.png' %}" target="_blank">
+								<img src="{% static 'images/clients/c1.png' %}" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="{% static 'images/clients/c2.png' %}" target="_blank">
+								<img src="{% static 'images/clients/c2.png' %}" alt="brand-image" />
+							</a>
+						</div>  -->
+						<div class="item">
+							<a href="static/images/clients/XAMK.pdf" target="_blank">
+								<img src="static/images/clients/c3.png" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="static/images/clients/CS50CS.png" target="_blank">
+								<img src="static/images/clients/c4.png" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="static/images/clients/CS50P.png" target="_blank">
+								<img src="static/images/clients/c5.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="static/images/clients/responsive_web_design.png" target="_blank">
+								<img src="static/images/clients/c6.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="static/images/clients/data_analysis.png" target="_blank">
+								<img src="static/images/clients/c7.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						
+					</div><!--/.owl-carousel-->
+				</div><!--/.container-->
+			</div><!--/.clients-area-->
+
+		</section><!--/.clients-->
+
+		</section><!--/.clients-->
+		<!--clients end -->
+
+	
+		
+<!--experience start -->
+<section id="experience" class="education" style="background-color: #F9FAF7;">
+    <div class="section-heading text-center">
+        <h2>experience</h2>
+    </div>
+    <div class="container">
+        <div class="education-horizontal-timeline">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>2019/06 - 2019/08</h2>
+                            <h3>Team Leader Internship</h3>
+                        </div><!--/.experience-time-->
+                        <div class="timeline-horizontal-border">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <span class="single-timeline-horizontal"></span>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <h4 class="title">
+                                    English Adventure
+                                </h4>
+                                <h5>Tsunan, Japan</h5>
+                                <p class="description">
+                                    Teamwork, project management, communication
+                                </p>
+                            </div><!--/.timeline-content-->
+                        </div><!--/.timeline-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>2022/06 - 2022/08</h2>
+                            <h3>Sales Assistant Internship</h3>
+                        </div><!--/.experience-time-->
+                        <div class="timeline-horizontal-border">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <span class="single-timeline-horizontal"></span>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <h4 class="title">
+                                    Impact Solution Partners
+                                </h4>
+								<h5>Vilnius, Lithuania</h5>
+                                <p class="description">
+                                    Project Management, Consulting
+                                </p>
+                            </div><!--/.timeline-content-->
+                        </div><!--/.timeline-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-horizontal-timeline">
+                        <div class="experience-time">
+                            <h2>2023/09 - 2024/02</h2>
+                            <h3>European Trainee</h3>
+                        </div><!--/.experience-time-->
+                        <div class="timeline-horizontal-border">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <span class="single-timeline-horizontal"></span>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-content">
+                                <h4 class="title">
+                                    European Parliament
+                                </h4>
+                                <h5>Full-time, On-site</h5>
+                                <p class="description">
+                                    Project Management, Political Science
+                                </p>
+                            </div><!--/.timeline-content-->
+                        </div><!--/.timeline-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!--/.education-->
+<!--experience end -->
+
+
+		<!--languages start -->
+		<section id="languages" class="languages" style="background-color: #e2eff0">
+				<div class="skill-content">
+					<div class="section-heading text-center">
+						<h2>languages</h2>
+					
+						<div class="section-heading text-center">
+							<h3 style="margin-top: 20px; margin-bottom: 20px; font-size: 16px; font-weight: 300; color: #3b3533; text-transform: none;">My passion for languages not only broadens my problem-solving skills but also fosters adaptability and cultural sensitivity, <br><br>all of which serve as invaluable assets in my journey through coding and computer science.</h3>
+						</div>
+					
+					</div>
+					<div class="container" style="margin-top: -40px;">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="single-skill-content">
+									<div class="barWrapper">
+										<span class="progressText">English - c2</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>100%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<div class="barWrapper">
+										<span class="progressText">Spanish - c1</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10" aria-valuemax="100" style="">
+												   
+											   </div>
+											</div>
+											<h3>95%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+
+									<div class="barWrapper">
+										<span class="progressText">mandarin chinese - hsk4 | b2</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>70%</h3>	
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="single-skill-content">
+									<div class="barWrapper">
+										<div class="barWrapper">
+											
+											<span class="progressText">Lithuanian</span>
+											<div class="single-progress-txt">
+												<div class="progress ">
+													<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="10" aria-valuemax="100" style="">
+														  
+													</div>
+												</div>
+												<h3>100%</h3>	
+											</div>
+										</div><!-- /.barWrapper -->
+										<span class="progressText">french - b2</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+												<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="">
+													
+												</div>
+											</div>
+											<h3>80%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									
+									<div class="barWrapper">
+										<span class="progressText">german - b1</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="10" aria-valuemax="100" style="">
+												   
+											   </div>
+											</div>
+											<h3>65%</h3>	
+										</div>
+									</div><!-- /.barWrapper -->
+									<!-- <div class="barWrapper">
+										<span class="progressText"> creativity</span>
+										<div class="single-progress-txt">
+											<div class="progress ">
+											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
+												    
+											   </div>
+											</div>
+											<h3>90%</h3>	
+										</div> -->
+									</div><!-- /.barWrapper -->
+								</div>
+							</div>
+						</div><!-- /.row -->
+					</div>	<!-- /.container -->		
+				</div><!-- /.skill-content-->
+
+		</section><!--/.skills-->
+		<!--languages end -->
+
+		
+
+<!--experience start -->
+<section id="education" class="experience" style="background-color: #F9FAF7;">
+    <div class="section-heading text-center">
+        <h2>education</h2>
+    </div>
+    <div class="container">
+        <div class="experience-content">
+            <div class="main-timeline" style="color:#3b3533;">
+                <ul>
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text-right">
+                                        <h2>2019/09 - 2023/06</h2>
+                                        <h3>Bachelor's degree in International relations</h3>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                University of Navarra
+                                            </h4>
+                                            <h5>Pamplona, Spain</h5>
+                                            <!-- Add any additional description here -->
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+
+
+                    <li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text-right">
+                                        <h2>2022/09 - 2023/01</h2>
+                                        <h3>International relations in Asia and Mandarin language</h3>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                East China University of Political Science and Law | 华东政法大学
+                                            </h4>
+                                            <h5>Shanghai, China | exchange semester</h5>
+                                            <!-- Add any additional description here -->
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+
+					<li>
+                        <div class="single-timeline-box fix">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="experience-time text-right">
+                                        <h2>2022/05 - 2022/06</h2>
+                                        <h3>International relations in the Middle East academic program</h3>
+                                    </div><!--/.experience-time-->
+                                </div><!--/.col-->
+                                <div class="col-md-offset-1 col-md-5">
+                                    <div class="timeline">
+                                        <div class="timeline-content">
+                                            <h4 class="title">
+                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                Hebrew University of Jerusalem
+                                            </h4>
+                                            <h5>Jerusalem, Israel | academic program</h5>
+                                            <!-- Add any additional description here -->
+                                        </div><!--/.timeline-content-->
+                                    </div><!--/.timeline-->
+                                </div><!--/.col-->
+                            </div>
+                        </div><!--/.single-timeline-box-->
+                    </li>
+
+                </ul>
+            </div><!--.main-timeline-->
+        </div><!--.experience-content-->
+    </div>
+</section><!--/.experience-->
+<!--experience end -->
+
+		
+	<!--contact start -->
+<section id="contact" class="contact" style="background-color: #e2eff0">
+    <div class="section-heading text-center">
+        <h2>contact me</h2>
+    </div>
+    <div class="container">
+        <div class="contact-content">
+            <div class="row">
+
+                    <div class="single-contact-box">
+                        <div class="contact-adress">
+                            <div class="contact-add-head">
+                                <h3>Emilija Žebrauskaitė</h3>
+                                <p>Junior Data Analyst</p>
+                            </div>
+                            <div class="contact-add-info">
+                                <div class="single-contact-add-info">
+                                    <h3>phone</h3>
+                                    <p>+370 68054071</p>
+                                </div>
+                                <div class="single-contact-add-info">
+                                    <h3>email</h3>
+                                    <p>emazebras@gmail.com</p>
+                                </div>
+                            </div>
+                        </div><!--/.contact-adress-->
+                        <div class="hm-foot-icon">
+                            <ul>
+                                <li><a href="https://www.facebook.com/emilija.zebrauskaite"><i class="fa fa-facebook"></i></a></li><!--/li-->
+								<li><a href="https://github.com/Emilija453?tab=repositories"><i class="fa fa-github"></i></a></li><!--/li-->
+                                <li><a href="https://www.linkedin.com/in/zebrauskaite-emilija"><i class="fa fa-linkedin"></i></a></li><!--/li-->
+                                <li><a href="https://www.instagram.com/emmuu/"><i class="fa fa-instagram"></i></a></li><!--/li-->
+                            </ul><!--/ul-->
+                        </div><!--/.hm-foot-icon-->
+                    </div><!--/.single-contact-box-->
+                </div><!--/.col-->
+            </div><!--/.row-->
+        </div><!--/.contact-content-->
+    </div><!--/.container-->
+</section><!--/.contact-->
+<!--contact end -->
+
+		<!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright" style="background-color: #6eadb2; padding-top: 40px; padding-bottom: 40px;">
+			<div class="container">
+				<div class="text-center">
+					<p>
+						&copy; <strong>Emilija Žebrauskaitė</strong> | design by <strong>Themesine</strong>
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+		<!--footer-copyright end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="static/js/jquery.js"></script>
+    
+		<!-- modernizr.min.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!-- bootstrap.min.js -->
+		<script src="static/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav.js -->
+		<script src="static/js/bootsnav.js"></script>
+		
+		<!-- jquery.sticky.js -->
+		<script src="static/js/jquery.sticky.js"></script>
+		
+		<!-- for progress bar start-->
+		<!-- progressbar js -->
+		<script src="static/js/progressbar.js"></script>
+		
+		<!-- appear js -->
+		<script src="static/js/jquery.appear.js"></script>
+		<!-- for progress bar end -->
+		
+		<!-- owl.carousel.js -->
+		<script src="static/js/owl.carousel.min.js"></script>
+		
+		<!-- jquery easing -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="static/js/custom.js"></script>
+        
+    </body>
+	
+</html>
