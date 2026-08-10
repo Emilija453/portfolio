@@ -369,6 +369,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: white}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
 .single-horizontal-timeline p {color: #3b3533;; max-width: 335px;}
+.education-horizontal-timeline .row {
+    display: flex;
+    justify-content: center;
+}
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
@@ -641,6 +645,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .portfolio-content {padding-top: 100px;}
+.portfolio-content .row {
+    display: flex;
+    justify-content: center;
+}
 
 /* ---- .item ---- */
 .isotope:after {
